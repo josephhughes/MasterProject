@@ -1,0 +1,27 @@
+#!/bin/bash
+# make simulations with 25, 100, 200 leaves with different host choosing, host switch, and cospeciation {0, 0.2, 0.4, 0.6, 0.8, 1}
+# simulate by change the values within s25, s100, and s200
+mkdir  /home/vagrant/simulations/coreT/s200/
+        for n in 0 2 4 6 8 1
+        do
+        dir="co${n}"
+        mkdir /home/vagrant/simulations/coreT/s200/${dir}
+        for j in 0 2 4 6 8 1
+        do
+                sub="hc${j}"
+                mkdir  /home/vagrant/simulations/coreT/s200/${dir}/${sub}/
+                for i in 0 2 4 6 8 1
+                do
+                        fin="sw${i}"
+                        mkdir /home/vagrant/simulations/coreT/s200/${dir}/${sub}/${fin}/
+                        lin="/home/vagrant/simulations/coreT/CoRe-Gen.jar"
+                        #set the ratios of events
+						swp="0.${i}"
+                        hcp="0.${j}"
+                        cop="0.${n}"
+                        cd /home/vagrant/simulations/coreT/s200/${dir}/${sub}/${fin}/
+                        # The simulation command
+						java -jar ${lin} -m1 -l200 -c3000 -pco${cop} -psw${swp} -phc${hcp}
+                        done
+                done
+        done
