@@ -1,0 +1,46 @@
+#!/bin/bash
+# Simultating the accetable samples for Retroviridae 
+num="0"
+#looping until 40 samples gotten for Retroviridae simulation
+# The process is almost same with the script 'generator' for Hepadnaviridae
+while [ ${num} -ne "40" ]
+do
+    # Simlation tool, CoRe-Gen
+	  java -jar /home/vagrant/simulations/coreT/CoRe-Gen.jar -m1 -c1 -l111 -pco0.85 -psw0.93 -phc0.28 > rubbish.txt 
+    line2=$(awk 'NR==2' simulation.reco)
+    a=( $line2 )
+    sum=$(expr ${a[0]} + ${a[1]} + ${a[2]} + ${a[3]})
+    #Duplication and sotring firstly because they are the events that very difficult to pass 
+	  # Multiple 100 to convert decimals to integers
+	  dp=$(bc <<< " scale=4; ${a[2]}*100/${sum}")
+
+	  #if pass the creterion, all values are the 100 times of the original ratios
+    if (( $(echo "${dp} <= 10" | bc -l) )) && (( $(echo "${dp} >= 0" | bc -l) ))
+
+    then
+        echo $dp 
+		    sorting=$(bc <<< " scale=4; ${a[1]}*100/${sum}")
+        if (( $(echo "${sorting} <= 8" | bc -l) )) && (( $(echo "${sorting} >= 0" | bc -l) ))
+        then
+        echo $sorting
+       	co=$(bc <<< " scale=4; ${a[0]}*100/${sum}")
+            
+		    if (( $(echo "${co} <= 30" | bc -l) )) && (( $(echo "${co} >= 20" | bc -l) ))
+            then
+				    echo $co
+                switches=$(bc <<< " scale=4; ${a[3]}*100/${sum}")
+                 if (( $(echo "${switches} <= 72" | bc -l) )) && (( $(echo "${switches} >= 62" | bc -l) ))
+                then
+					          echo $switches
+					          # If pass all criterions, then move and change names of the CoRe-Gen outputs
+                    cp "simulation.reco" samplesL111/sample${num}.reco
+
+                    cp "simulation.tree" samplesL111/sample${num}.tree
+                    cp "simulation.nex" samplesL111/sample${num}.nex
+                    echo "sampleGet" 
+					          let "num+=1"
+                fi
+            fi
+        fi
+    fi
+done
