@@ -60,6 +60,8 @@ for (line in lines)
     length <- as.numeric(s)
     if (length < 5400)
     {
+      #Two cases, one remove the solutions check to get boxplots contain no solution results
+      #and one add the check to add information about the results which have solutions 
       #solutionCheck
       if( grepl("Solution", fLines[i]) != TRUE){
         numS[i, 1] <- length
@@ -101,6 +103,9 @@ for (line in lines)
       num[n, 1] <- length
       num[n,2] <- total
       n = n + 1
+      #Two cases, one remove the solutions check to get boxplots contain no solution results
+      #and one add the check to add information about the results which have solutions 
+      #Solution check by checking if there is output file but not only a file names 'sample*'
       file <- paste0(path,"output", as.character(total - 1))
       if (file.exists(file) == TRUE)
       {
@@ -138,6 +143,9 @@ for (line in lines)
       num[n, 1] <- length
       num[n,2] <- total
       n = n + 1
+      #Two cases, one remove the solutions check to get boxplots contain no solution results
+      #and one add the check to add information about the results which have solutions 
+      #Solution check by checking if there is output file but not only a file names 'sample*'
       file <- paste0(path,"output", as.character(total - 1))
       if (file.exists(file) == TRUE)
       {
@@ -267,6 +275,7 @@ for (line in lines)
   line = strsplit(line, "\\s+")[[1]]
   if (grepl("Solution", line) == FALSE && grepl("Time",line) == FALSE)
   {
+    #Get the number of events for statistics
     DC111R[n,1] <- as.numeric(line[1])
     if(line[2] != '?')
     {
