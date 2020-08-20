@@ -183,6 +183,7 @@ names(num) <- name
 List <- rbind(List, num)
 List
 #Boxplot
+#Two title, with and no solutions
 p <- ggplot(List, aes(x = Conditions, y = Time))+ geom_boxplot()
 p + geom_point() + labs(x = "", y="Time (s)", title = "The Results with Solutions")
 
