@@ -1,0 +1,49 @@
+#!/bin/bash
+# Complement simulations in the cases where cospeciation, host choosing, or host switch to be 1
+# Mannually switch the folders between 25, 100, 200
+dir="/home/vagrant/simulations/coreT/s200/"
+for i in 0 2 4 6 8 1
+do
+
+	co="co${i}"
+	cop="0.${i}"
+	for m in 0 2 4 6 8 1
+	do
+		hc="hc${m}"
+		hcp="0.${m}"
+		for n in 0 2 4 6 8 1
+		do
+			motif="F"	
+			sw="sw${n}"
+			swp="0.${n}"
+			# judgy if should be 1
+      if [ $m == "1" ]
+                	then
+                        	hcp="1"
+                        	motif="T"
+       		        fi		
+			# judgy if should be 1
+      if [ $i == "1" ]
+        		then
+                		cop="1"
+
+                		motif="T"
+        		fi
+			# judgy if should be 1
+      if [ $n -eq "1" ] 
+			then
+				swp="1"
+				motif="T"
+			fi
+		
+			if [ $motif == "T" ]
+			then
+				cd ${dir}/${co}/${hc}/${sw}
+        # mannually switch the number of leaves size
+				java -jar /home/vagrant/simulations/coreT/CoRe-Gen.jar -m1 -c3000 -l200 -pco${cop} -psw${swp} -phc${hcp}	
+
+			fi
+
+		done
+	done
+done
