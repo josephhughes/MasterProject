@@ -1,4 +1,4 @@
-#DJ23H.txt SJ23H.txt DJ100H.txt SJ100H.txt DJ111R
+#DJ46H.txt DJ100H.txt DJ111R
 # Function to get the differences between the solution found by tools and the correct solution, and the nnumbers of eveents found by tools
 # This script is little special that it also records the number of events in the correct solutions.
 def accuracy(output1, origin, realSolution, path, pathToAns, l):
