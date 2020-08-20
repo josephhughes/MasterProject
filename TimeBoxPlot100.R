@@ -65,7 +65,7 @@ num <- cbind(num[1:n-1,], rep("DE"))
 names(num) <- name
 List <- rbind(List, num)
 
-# Solution - time
+# The relationship between Solution - time, figure 10 in report
 path <- "C:/Users/49688/Documents/simulation/DEucalypt100H/"
 timeRecorder <- num
 # num of solution
