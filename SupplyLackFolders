@@ -1,0 +1,21 @@
+#!/bin/bash
+#Geenrate simulations for those cases where no 3000 simulations in the folders, not involving event = 1
+input="/home/vagrant/simulations/coreT/lackText2.txt"
+# Each line is a path of 
+while IFS= read -r line
+do
+	a=${line}
+	loc="/home/vagrant/simulations/${line:36:23}"  
+	echo $loc	
+	tips="25"	
+
+	# Get corresponding numbers from the string of path 
+	cop="0.${a:48:1}"
+	hcp="0.${a:58:1}"
+	swp="0.${a:56:1}"
+  # Go the complete path
+	cd /home/vagrant/simulations/s25/${cop}/${hcp}/${swp}/ 
+  # Mannually switch the number of leaves according to the file read currently
+	java -jar /home/vagrant/simulations/coreT/CoRe-Gen.jar -m1 -c3000 -l25 -pco${cop} -psw${swp} -phc${hcp}	
+	 
+done<$input		
