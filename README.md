@@ -30,7 +30,8 @@ Procedures:
       EUCALYPT_accuracy.py;
       Jane4_Accuracy.py;
       TreeCollapse_Accuracy.py;
-      The output files are in the folders: CoRe, Eucalypt, Janes, and TreeCollapse
+      The output files are in the folders: CoRe, Eucalypt, Janes, and TreeCollapse. 
+      
 5. Make the boxplots based on the differences between the number of each event from the solutions found by tools and the correct solutions (figure 11).
     BoxPlot46.R
     BoxPlot100.R
@@ -50,6 +51,7 @@ Procedures:
       anova46.R
       anova100.R
       anova111.R
+      TableSummary.csv is the result of table.
     Figure 11:
      anova46.R
      anova100.R
