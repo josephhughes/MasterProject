@@ -1,0 +1,44 @@
+#!/bin/bash
+# Generation a number of accetable simulations of Hepadnaviridae, for the calculation here, 'bc' should be installed in linux
+num="0"
+#looping until 60 samples gotten for small group of Hepadnaviridae, and we can change it to 40 for large group
+while [ ${num} -ne "60" ] 
+do
+	# Make one simulation. Switch the number of leaves {46,100} according to table 3 in report for simulating Hepadnaviridae samples
+	java -jar /home/vagrant/simulated_data/CoRe-Gen.jar -m1 -c1 -l46 -pco0.425 -psw0.49 -phc0.51
+	#Read line 2 where the number of events are written in .reco file
+	line2=$(awk 'NR==2' simulation.reco)
+	echo "$line2"
+	a=( $line2 )
+	#Get the sum of the number of events
+	sum=$(expr ${a[0]} + ${a[1]} + ${a[2]} + ${a[3]})
+	echo ${sum}
+	#Get the ratio of cospeciation
+	co=$(bc <<< " scale=4; ${a[0]}/${sum}")
+	# if the ratio of cospeciation pass the criterion, judge cospeciation firstly because this one usually can pass and return a print to show script is running
+	if [ $(echo "${co} <= 0.45" |bc -l) ] && [ $(echo "${co} >= 0.4" |bc -l) ]
+	then
+			#Get the ratio of sorting
+			sorting=$(bc <<< " scale=4; ${a[1]}/${sum}")
+			# If the ratio of so pass criterion, do this secoondly because this is relatively diffidult to pass
+			if [ $(echo "${sorting} <= 0.05" |bc -l) ] && [ $(echo "${sorting} >= 0.17" |bc -l) ]
+			then
+					#Get the ratio of duplicaiton
+					duplication=$(bc <<< " scale=4; ${a[2]}/${sum}")
+					# judge if pass, this is also difficult to pass
+					if [ $(echo "${duplication} <= 0.01" |bc -l) ] && [ $(echo "${duplication} >= 0" |bc -l) ]
+					then
+							# The final one, the easiest one
+							switches=$(bc <<< " scale=4; ${a[3]}/${sum}")
+							if [ $(echo "${switches} <= 0.58" |bc -l) ] && [ $(echo "${switches} >= 0.4" |bc -l) ]
+							then
+                                # If pass all criterions, then change the names of CoRe-Gen outputs and plus 1 to counter
+								cp "simulation.reco" "sample${num}.reco"
+								cp "simulation.tree" "sample${num}.tree"
+								cp "simulation.nex" "sample${num}.nex"
+								let "num+=1"
+							fi
+					fi
+			fi
+	fi
+done
