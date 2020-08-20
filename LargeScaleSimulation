@@ -1,5 +1,6 @@
 #!/bin/bash
 # make simulations with 25, 100, 200 leaves with different host choosing, host switch, and cospeciation {0, 0.2, 0.4, 0.6, 0.8, 1}
+
 # simulate by change the values within s25, s100, and s200
 mkdir  /home/vagrant/simulations/coreT/s200/
         for n in 0 2 4 6 8 1
@@ -16,6 +17,8 @@ mkdir  /home/vagrant/simulations/coreT/s200/
                         mkdir /home/vagrant/simulations/coreT/s200/${dir}/${sub}/${fin}/
                         lin="/home/vagrant/simulations/coreT/CoRe-Gen.jar"
                         #set the ratios of events
+			# due to the error in the ratios of host switch, we finally complement the simulations in another bash script
+			# Here host switch can not be 1 but 0.1
 						swp="0.${i}"
                         hcp="0.${j}"
                         cop="0.${n}"
