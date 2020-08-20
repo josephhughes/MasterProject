@@ -1,0 +1,124 @@
+#!/bin/bash
+#Change the directory from 46 to 100 and to 111, and switch the path of simulations from sample to Hsample to Rsample 
+mkdir DJ46
+mkdir DE46
+mkdir DC46
+mkdir SC46 
+mkdir DT46
+mkdir DJ100
+mkdir DE100
+mkdir DC100
+mkdir SC100 
+mkdir DT100
+mkdir DJ111
+mkdir DE111
+mkdir DC111
+mkdir SC111 
+mkdir DT111
+
+#Tools loc
+tool="/home/vagrant/cophylogenyTools/"
+
+#H46
+sample="/home/vagrant/simulations/HepSimulation/smallGroup/"
+
+#H100
+Hsample="/home/vagrant/simulations/Hepadnaviridae/largeSamples/"
+
+#R111
+Rsample="/home/vagrant/simulations/Retroviridae_dir/samples/"
+
+
+cd /home/vagrant/cophylogenyTools/DJ46
+#100 Jane 
+for ((i=0;i<60;i++))
+do
+	 # For Default
+        start=$(date +%s)
+
+        bash ${tool}jane-cli.sh -V -C -o output${i}  ${sample}sample${i}.tree > sample${i}
+        end=$(date +%s)
+	runtime=$((end-start))
+
+        echo "${runtime}" >> Janetime
+        echo "Jane${i}"
+
+
+done
+
+#DE DE46H
+cd /home/vagrant/cophylogenyTools/DE46
+ 	
+for ((i=0;i<60;i++))
+do
+	start=$(date +%s)
+
+        timeout 5400s java -jar ${tool}Eucalypt-1.0.4.jar -i ${sample}sample${i}.nex -n 1000000 -o raw${i} -task 3 > rubbish
+	java -jar ${tool}Eucalypt-1.0.4.jar -i raw${i} -task 4 -o presample${i} > output${i}	
+
+	end=$(date +%s)
+	runtime=$((end-start))
+	file="presample${i}"
+        n="0"
+        while read -r line; do
+                echo $line >> sample${i}
+                let "n=n+1"
+
+
+                if [[ $n -eq 999 ]] ; then
+                        tag="$( tail -n 6 presample${i} )"
+                        echo "$tag"
+                        echo "$tag" >> sample${i}
+                        break ; fi
+        done < "$file"
+	
+	rm rubbish
+        rm presample${i}
+        rm raw${i}
+        echo "${runtime}" >> Janetime
+        echo "Eucalypot${i}"
+
+	
+done
+
+
+cd ${tool}DT46  
+for ((i=0;i<60;i++))
+do
+        start=$(date +%s)
+        timeout 5400s java -jar ${tool}Cheeta.jar --Algorithm TreeCollapse --File ${sample}sample${i}.nex > output${i}.txt
+
+        end=$(date +%s)
+        runtime=$((end-start))
+        echo "${runtime}" >> /home/vagrant/cophylogenyTools/DT46H/JaneTime
+        echo "complete${i}"
+done
+
+cd /home/vagrant/CoRe-ILP12100/
+for ((i=0;i<60;i++))
+do
+        #D no -t
+
+
+        start=$(date +%s)
+        timeout 5400s java -jar CoRe-ILP.jar -i ${sample}sample${i}.nex -o output${i} -v > sample${i}
+        end=$(date +%s)
+        runtime=$((end-start))
+        echo "${runtime}" >> ${tool}SC46/Janetime
+        mv output${i} ${tool}/DC46/ 
+        mv sample${i} ${tool}/DC46/ 
+        echo complete${i}
+done
+for ((i=0;i<60;i++))
+do
+        #D -t
+        start=$(date +%s)
+        timeout 5400s java -jar CoRe-ILP.jar -i ${sample}sample${i}.nex -o output${i} -t -v > sample${i}
+        end=$(date +%s)
+        runtime=$((end-start))
+        echo "${runtime}" >> ${tool}SC46/Janetime
+        mv output${i} ${tool}/SC46/
+        mv sample${i} ${tool}/SC46/ 
+        echo complete${i}
+done
+ 
