@@ -31,4 +31,5 @@ for(s in tipsg)
 }
 i
 lackGrid
+# Get three files for each group in 25, 100, 200 leaves
 lapply(lackGrid, write, "lackText3.txt", append= TRUE, ncolumns = 1000)
