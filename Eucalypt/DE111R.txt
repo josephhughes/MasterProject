@@ -1,0 +1,41 @@
+Cospeciation Duplication Switch Sorting
+NoAcyclicSolution
+NoAcyclicSolution
+NoAcyclicSolution
+NoAcyclicSolution
+8.00 1.27 -9.27 -1.00
+NoAcyclicSolution
+NoAcyclicSolution
+NoAcyclicSolution
+NoAcyclicSolution
+NoAcyclicSolution
+NoAcyclicSolution
+8.61 -1.00 -7.61 2.23
+10.00 -2.15 -7.85 5.00
+NoAcyclicSolution
+NoAcyclicSolution
+NoAcyclicSolution
+NoAcyclicSolution
+NoAcyclicSolution
+NoAcyclicSolution
+NoAcyclicSolution
+NoAcyclicSolution
+4.00 -0.59 -3.41 -1.00
+NoAcyclicSolution
+NoAcyclicSolution
+7.27 -1.86 -5.41 5.54
+5.78 -1.50 -4.28 3.56
+NoAcyclicSolution
+NoAcyclicSolution
+NoAcyclicSolution
+NoAcyclicSolution
+NoAcyclicSolution
+NoAcyclicSolution
+NoAcyclicSolution
+NoAcyclicSolution
+NoAcyclicSolution
+NoAcyclicSolution
+NoAcyclicSolution
+NoAcyclicSolution
+NoAcyclicSolution
+NoAcyclicSolution

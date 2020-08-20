@@ -1,0 +1,41 @@
+Cospeciation Duplication Host_Switch Sorting
+19.00 ? ? ?
+NoSolution
+NoSolution
+NoSolution
+NoSolution
+NoSolution
+NoSolution
+NoSolution
+20.00 ? ? ?
+NoSolution
+NoSolution
+22.00 ? ? ?
+NoSolution
+17.00 ? ? ?
+NoSolution
+NoSolution
+NoSolution
+NoSolution
+OutOfTime
+NoSolution
+9.00 ? ? ?
+NoSolution
+NoSolution
+NoSolution
+14.00 ? ? ?
+NoSolution
+NoSolution
+OutOfTime
+NoSolution
+NoSolution
+NoSolution
+NoSolution
+NoSolution
+NoSolution
+NoSolution
+NoSolution
+NoSolution
+22.00 ? ? ?
+NoSolution
+24.00 ? ? ?
