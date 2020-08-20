@@ -65,12 +65,14 @@ for (line in lines)
     length <- as.numeric(s)
     if (length < 5400)
     {
+      
       #solutionCheck
       if( grepl("Solution", fLines[i]) != TRUE){
         numS[i, 1] <- length
         numS[i,2] <- total
         i = i + 1
       }
+      # may without solution 
       num[n, 1] <- length
       num[n,2] <- total
       n = n + 1
@@ -101,9 +103,11 @@ for (line in lines)
     length <- as.numeric(s)
     if (length < 5400)
     {
+      #May without solutions
       num[n, 1] <- length
       num[n,2] <- total
       n = n + 1
+      #Check if solution there
       file <- paste0(path,"output", as.character(total - 1))
       if (file.exists(file) == TRUE)
       {
@@ -137,9 +141,12 @@ for (line in lines)
     length <- as.numeric(s)
     if (length < 5400)
     {
+      
       num[n, 1] <- length
       num[n,2] <- total
+      
       n = n + 1
+      #Check if solution there
       file <- paste0(path,"output", as.character(total - 1))
       if (file.exists(file) == TRUE)
       {
@@ -251,6 +258,7 @@ times <- 0
 for (line in lines)
 {
   line = strsplit(line, "\\s+")[[1]]
+  #Successfully or not find solutions, counter
   if (grepl("Solution", line) == FALSE && grepl("Time",line) == FALSE)
   {
     DC46H[n,1] <- as.numeric(line[1])
@@ -268,6 +276,7 @@ for (line in lines)
       DC46H[n,4] <- as.numeric(line[4])
     }
     n = n + 1
+    #Out of time, counter
     if (grepl("Time",line) == TRUE){
       times = times + 1
     }
@@ -285,6 +294,7 @@ times <- 0
 for (line in lines)
 {
   line = strsplit(line, "\\s+")[[1]]
+  #Successfully or not find solutions, counter
   if (grepl("Solution", line) == FALSE && grepl("Time",line) == FALSE)
   {
     SC46H[n,1] <- as.numeric(line[1])
@@ -301,6 +311,7 @@ for (line in lines)
       SC46H[n,4] <- as.numeric(line[4])
     }
     n = n + 1
+    #Out of time or not, counter
     if (grepl("Time",line) == TRUE){
       times = times + 1
     }
@@ -312,6 +323,7 @@ table["SC46","OutOfTime"] <- times
 #TreeCollapse46H
 setwd("C:/Users/49688/Documents/simulation/pycharm/TreeCollapse")
 TC46H = read.csv("DTC46H.txt",header = TRUE, sep =" ")
+#solutions for all samples were found
 table <- fillTable("TC46",TC46H[1:n-1, 1], TC46H[1:n-1, 2], TC46H[1:n-1, 3], TC46H[1:n-1, 4],60, table)
 
 #
