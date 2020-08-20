@@ -41,20 +41,6 @@ table["DJ100","AverageOfTimeWithS"] <- format(round(mean(num[1:n-1,1]), 2), nsma
 table["DJ100","MedianOfTimeWithS"] <- format(round(median(num[1:n-1,1]), 2), nsmall = 2)
 table["DJ100","OutOfTime"] <- 0
 num
- #$SJ100
-#  setwd("C:/Users/49688/Documents/simulation/SJ100")
-#  lines = readLines("Janetime")
-#  n <- 1
-#  num <- data.frame(matrix(ncol = 1, nrow = 40))
-# for (line in lines)
-#  {
-#    num[n, 1] <- as.numeric(strsplit(line, "\\n+")[[1]][1])
-#    num[n,2] <- n
-#    n = n + 1
-#  }
-#  table["SJ100","AverageOfTime"] <- mean(num[,1])
-#  table["SJ100","MedianOfTime"] <- median(num[,1])
-#  table["SJ100","OutOfTime"] <- 0
 
  # DE100 
 setwd("C:/Users/49688/Documents/simulation/DEucalypt100H")
@@ -91,36 +77,6 @@ table["DE100","MedianOfTimeWithoutS"] <- format(round(median(num[1:n-1,1]), 2), 
 table["DE100","AverageOfTimeWithS"] <- format(round(mean(numS[1:i-1,1]), 2), nsmall = 2)
 table["DE100","MedianOfTimeWithS"] <- format(round(median(numS[1:i-1,1]), 2), nsmall = 2)
 table["DE100","OutOfTime"] <- total - n
-
-# SE100
- # setwd("C:/Users/49688/Documents/simulation/SE100")
- # lines = readLines("Janetime")
- # n <- 1
- # total <- 1
- # num <- data.frame(matrix(ncol = 1, nrow = 40))
- # for (line in lines)
- # {
- #   s <- strsplit(line, "\\n+")[[1]][1]
- #   if(grepl("OutOfTime",s) != TRUE)
- #   {
- #     length <- as.numeric(s)
- #     if (length < 5400)
- #     {
- #       file <- paste0(path,"output", as.character(total - 1))
- #       if (file.exists(file) == TRUE)
- #       {
- #         num[n, 1] <- length
- #         num[n,2] <- total
- #         n = n + 1
- #       }
- #     }
- #   }
- #   total = total + 1
- # }
- # n
- # total
- # table["SE100","AverageOfTime"] <- mean(num[1:n-1,1])
- # table["SE100","MedianOfTime"] <- median(num[1:n-1,1])
 
 
 # DC100 
@@ -264,20 +220,6 @@ table["DJ100","AverageDS"] <- format(round(mean(DJ100H[,4]), 2), nsmall = 2)
 table["DJ100","NumOfSuccesses"] <- 40
 
 
-# #SJ100H
- # SJ100H = read.csv("SJ100H.txt",header = TRUE, sep =" ")
- # table["SJ100","MedianDC"] <- median(SJ100H[,1])
- # table["SJ100","MedianDD"] <- median(SJ100H[,2])
- # table["SJ100","MedianDH"] <- median(SJ100H[,3])
- # table["SJ100","MedianDS"] <- median(SJ100H[,4])
- # table["SJ100","AverageDC"] <- mean(SJ100H[,1])
- # table["SJ100","AverageDD"] <- mean(SJ100H[,2])
- # table["SJ100","AverageDH"] <- mean(SJ100H[,3])
- # table["SJ100","AverageDS"] <- mean(SJ100H[,4])
- # table["SJ100","NumOfSuccesses"] <- 40
-
-
-
 #DE100H
 setwd("C:/Users/49688/Documents/simulation/pycharm/Eucalypt")
 lines = read_lines("DE100H.txt", skip = 1)
@@ -305,30 +247,6 @@ for (line in lines)
 table <- fillTable("DE100",DE100H[1:n-1, 1], DE100H[1:n-1, 2], DE100H[1:n-1, 3], DE100H[1:n-1, 4],n - 1, table)
 table["DE100","OutOfTime"] <- times
 
-#SE100HP
-#  lines = read_lines("SE100H.txt", skip = 1)
-#  lines
-#  SE100H = data.frame(matrix(ncol = 4, nrow = 40))
-#  n = 1
-#  times <- 0
-#  for (line in lines)
-#  {
-#    line = strsplit(line, "\\s+")[[1]]
-#    if (grepl("Solution", line) == FALSE && grepl("Time",line) == FALSE)
-#    {
-#      SE100H[n,1] <- as.numeric(line[1])
-#      SE100H[n,2] <- as.numeric(line[2])
-#      SE100H[n,3] <- as.numeric(line[3])
-#      SE100H[n,4] <- as.numeric(line[4])
-#      n = n + 1
-#    }
-#    if (grepl("Time",line) == TRUE){
-#      times = times + 1
-#    }
-#  }
-#  names(SE100H) <- Names
-# table <- fillTable("SE100",SE100H[1:n-1, 1], SE100H[1:n-1, 3], SE100H[1:n-1, 3], SE100H[1:n-1, 4],n - 1, table)
-# table["SE100","OutOfTime"] <- times
 
 setwd("C:/Users/49688/Documents/simulation/pycharm/CoRe")
 #DC100H
