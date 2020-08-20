@@ -16,7 +16,7 @@ for(s in tipsg)
       for(swdir in swg)
       {
         folder <- paste0(start, s, "/", codir, "/", hcdir, "/", swdir, "/")
-        # Enter the path and check the number of files. if lower than 3000, the folder would be recoreded in a vector 
+        # Enter the path and check the number of files. if lower than 3000, the path of folder would be recoreded in a vector 
         setwd(folder)
         f <- list.files(pattern = "*.reco")
         if (length(f) < 3000)
