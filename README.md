@@ -22,15 +22,15 @@ Procedures:
     
 5. Run the tools to find solution for the simulations and get the values of events from solutions found by tools and the differences in each event between the solutions found by    tools and the correct solutions.
     Tool running:
-    Tool4 :EUCALYPT, Jane, CoRe-ILP, TreeCollapse running
-    runTreeMap.bat (failed to find solutions, because the termination of running is failed)
+    Tool4 :EUCALYPT, Jane, CoRe-ILP, TreeCollapse running.
+    runTreeMap.bat (failed to find solutions, because the termination of running is failed).
     
     Get the numbers and the differences of events:
-      CoReILP_Accuracy.py
-      EUCALYPT_accuracy.py
-      Jane4_Accuracy.py
-      TreeCollapse_Accuracy.py
-    
+      CoReILP_Accuracy.py;
+      EUCALYPT_accuracy.py;
+      Jane4_Accuracy.py;
+      TreeCollapse_Accuracy.py;
+      The output files are in the folders: CoRe, Eucalypt, Janes, and TreeCollapse
 5. Make the boxplots based on the differences between the number of each event from the solutions found by tools and the correct solutions (figure 11).
     BoxPlot46.R
     BoxPlot100.R
@@ -62,5 +62,6 @@ Procedures:
   The host names are screened by the gene cytb by esearch and efetch: esearch -db nuccore -query "Myodes glareolus AND refseq[filter] AND cytochrome b" | efetch -format gb
   The number of hantavirus-host interactions and gene combination:
     InteractionCounter.py
+
 
 
