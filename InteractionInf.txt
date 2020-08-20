@@ -1,0 +1,2668 @@
+Parasite:#Virus
+Host: Host name
+ accession number of CYTB
+ accession number of COIPuumala orthohantavirus
+// 1
+Parasite:Puumala orthohantavirus
+Host:Myodes glareolus
+
+
+Host:bank vole
+
+
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+Host:Apodemus flavicollis
+
+
+Host:Clethrionomys glareolus
+
+
+Host:Meriones tamariscinus
+NC_034314|
+
+Host:Clethrionomys rufocanus
+
+
+Host:patient from Germany with HFRS
+
+
+Host:bank vole (Clethrionomys glareolus)
+
+
+// 9
+Parasite:Hantaan orthohantavirus
+Host:Apodemus agrarius
+NC_016428|
+
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+Host:Mus musculus
+NC_005089|
+
+Host:Tscherskia triton
+NC_013068|
+
+Host:Rattus losea
+
+
+Host:rodents
+
+
+Host:Apodemus peninsulae
+NC_016060|
+
+Host:Niviventer confucianus
+NC_023960|
+
+Host:Rattus confucianus
+
+
+Host:Microtus fortis Buchner
+
+
+Host:Rattus norvegicus Rerkonhout
+
+
+Host:Clethrionomys rutilus
+
+
+Host:Rattus norvegicus (rodent)
+
+
+Host:Microtus fortis (rodent)
+
+
+Host:Apodemus agrarius (rodent)
+
+
+Host:Clethrionomys rutilus (rodent)
+
+
+Host:rodent
+
+
+Host:Microtus fortis
+
+
+// 19
+Parasite:Camp Ripley virus
+Host:Blarina carolinensis
+
+
+Host:Blarina brevicauda
+NC_042734|
+
+Host:Blarina hylophaga
+NC_042694|
+
+Host:Blarina brevicauda (shrew)
+
+
+// 4
+Parasite:Artybash virus
+Host:Sorex caecutiens
+
+
+Host:Sorex tundrensis
+NC_025327|
+
+// 2
+Parasite:Tula orthohantavirus
+Host:Dryomys nitedula
+
+
+Host:Microtus agrestis
+NC_041250|
+
+Host:Microtus arvalis
+NC_038176|
+
+Host:Microtus obscurus
+
+
+Host:Microtus guentheri
+
+
+Host:Microtus dogramacii
+
+
+Host:Microtus arvalis obscurus
+
+
+Host:Arvicola amphibius
+
+
+Host:Microtis arvalis
+
+
+Host:Microtus gregalis
+
+
+Host:Lagurus lagurus
+
+
+Host:microtus subterraneus
+
+
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+Host:Microtus arvalis f. obscurus
+
+
+Host:Microtus subterraneus
+
+
+// 15
+Parasite:Thottopalayam thottimvirus
+Host:Suncus murinus
+NC_024604|
+
+// 1
+Parasite:Asturias virus
+Host:Talpa occidentalis
+
+
+// 1
+Parasite:Orthohantavirus sp.
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+Host:Apodemus agrarius
+NC_016428|
+
+Host:Mus musculus
+NC_005089|
+
+Host:Peromyscus leucopus
+NC_037180|
+
+Host:rat
+
+
+Host:shrew
+
+
+// 7
+Parasite:Tatenale orthohantavirus
+Host:Microtus agrestis
+NC_041250|
+
+// 1
+Parasite:Serang virus
+Host:Sundamys muelleri
+NC_035818|
+
+Host:Rattus sp. R3
+
+
+Host:Rattus tanezumi
+NC_011638|
+
+// 3
+Parasite:Perch actinovirus
+Host:Perca fluviatilis
+NC_026313|
+
+// 1
+Parasite:Tigray orthohantavirus
+Host:Stenocephalomys sp.
+
+
+Host:Stenocephalomys albipes
+
+
+// 2
+Parasite:Jeju orthohantavirus
+Host:Crocidura shantungensis
+NC_021398|
+
+// 1
+Parasite:Seoul orthohantavirus
+Host:Rat
+
+
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+Host:Apodemus agrarius
+NC_016428|
+
+Host:Mus musculus
+NC_005089|
+
+Host:Sorex araneus
+NC_027963|
+
+Host:Rattus flavipectus
+
+
+Host:Crocidura lasiura
+NC_029329|
+
+Host:Rattus sp.
+
+
+Host:Rattus norvegicus strain Wistar
+
+
+Host:Rattus tanezumi
+NC_011638|
+
+Host:Rattus rattus
+NC_012374|
+NC_012374|
+Host:Cricetulus triton
+
+
+Host:Cricetulus barabensis
+
+
+Host:cat
+
+
+Host:Rattus flabipectus
+
+
+Host:Rattus rattoides
+
+
+Host:Suncus murinus
+NC_024604|
+
+Host:Rattus argentiventer
+
+
+Host:Hipposideros pomona
+
+
+Host:Rhinolophus pusillus
+NC_046021|
+
+Host:Hipposideros larvatus
+
+
+Host:Hipposideros armiger
+NC_018540|
+NC_018540|
+Host:Patient
+
+
+Host:Rattus norvegicus lung
+
+
+Host:Rattus norvegicus (brown rat)
+
+
+Host:Microtus fortis
+
+
+Host:Mus norvegicus albus
+
+
+// 28
+Parasite:Xuan son virus
+Host:Hipposideros cineraceus
+
+
+Host:Hipposideros pomona
+
+
+Host:Hipposideros pomona voucher VN1982B4
+
+
+// 3
+Parasite:Robina orthohantavirus
+Host:Pteropus alecto
+NC_023122|
+
+// 1
+Parasite:Seewis virus
+Host:Apodemus sylvaticus
+NC_049122|
+
+Host:Apodemus flavicollis
+
+
+Host:Sorex araneus
+NC_027963|
+
+Host:Sorex tundrensis
+NC_025327|
+
+Host:Sorex daphaenodon
+NC_044107|
+
+Host:Sorex minutus
+
+
+Host:Neomys anomalus
+
+
+// 7
+Parasite:Dobrava-Belgrade orthohantavirus
+Host:Apodemus agrarius
+NC_016428|
+
+Host:Apodemus flavicollis
+
+
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+Host:Microtus arvalis
+NC_038176|
+
+Host:Meriones tamariscinus
+NC_034314|
+
+Host:Apodemus sylvaticus
+NC_049122|
+
+Host:Sorex araneus
+NC_027963|
+
+Host:Myodes glareolus
+
+
+Host:Apodemus ponticus
+
+
+Host:Mus musculus
+NC_005089|
+
+Host:Apodemus agrarius (mouse)
+
+
+Host:Glis glis
+NC_001892|
+NC_001892|
+Host:wild rodents
+
+
+// 13
+Parasite:Buffalo Bayou virus
+Host:Cyanocitta cristata
+
+
+// 1
+Parasite:Altai virus
+Host:Sorex roboratus
+NC_034808|
+
+Host:Sorex caecutiens
+
+
+Host:Sorex minutus
+
+
+Host:Sorex minutissimus
+NC_042196|
+
+Host:Sorex araneus
+NC_027963|
+
+// 5
+Parasite:Traemmersee orthohantavirus
+Host:Microtus agrestis
+NC_041250|
+
+// 1
+Parasite:Sin Nombre orthohantavirus
+Host:Peromyscus maniculatus
+
+
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+Host:Peromyscus eremicus
+NC_047188|
+
+Host:Peromyscus leucopus
+NC_037180|
+
+Host:Reithrodontomys fulvescens
+
+
+Host:Peromyscus attwateri
+NC_035593|
+
+Host:Peromyscus pectoralis
+NC_035598|
+
+Host:white-footed mouse (Peromyscus leucopus)
+
+
+Host:Peromyscus truei
+
+
+// 9
+Parasite:Dabieshan orthohantavirus
+Host:Niviventer niviventer
+
+
+Host:Niviventer confucianus
+NC_023960|
+
+// 2
+Parasite:Meliandou hantavirus
+Host:Mastomys natalensis
+NC_036995|
+
+// 1
+Parasite:Sarawak mobatvirus
+Host:Murina aenea
+
+
+// 1
+Parasite:Jemez Springs virus
+Host:Sorex vagrans
+
+
+Host:Sorex trowbridgii
+
+
+Host:Sorex monticolus
+
+
+Host:Sorex haydeni
+
+
+Host:Sorex palustris
+
+
+Host:Sorex bairdi
+
+
+// 6
+Parasite:Lena River virus
+Host:Sorex caecutiens
+
+
+// 1
+Parasite:Yakeshi virus
+Host:Sorex isodon
+
+
+// 1
+Parasite:Kenkeme virus
+Host:Sorex roboratus
+NC_034808|
+
+// 1
+Parasite:Necocli virus
+Host:Zygodontomys brevicauda cherriei voucher Roedor 84
+
+
+Host:Zygodontomys cherriei voucher Roedor 340
+
+
+Host:Zygodontomys cherriei voucher Roedor 4
+
+
+Host:Zygodontomys cherriei
+
+
+// 4
+Parasite:Oxbow virus
+Host:Neurotrichus gibbsii
+
+
+// 1
+Parasite:Longquan virus
+Host:Rhinolophus sinicus
+
+
+// 1
+Parasite:Asikkala orthohantavirus
+Host:Sorex minutus
+
+
+// 1
+Parasite:Laibin virus
+Host:Taphozous melanopogon
+
+
+// 1
+Parasite:Asama virus
+Host:Urotrichus talpoides
+NC_005034|
+
+// 1
+Parasite:Hantavirus HantaV-1
+Host:Carollia perspicillata
+NC_022422|
+
+// 1
+Parasite:Thottopalayam virus
+Host:Suncus murinus
+NC_024604|
+
+// 1
+Parasite:Hantavirus HantaV-2
+Host:Carollia sowelli
+
+
+// 1
+Parasite:Hantavirus HantaV-3
+Host:Carollia sowelli
+
+
+// 1
+Parasite:Academ virus
+Host:Talpa altaica
+
+
+// 1
+Parasite:Xuan son mobatvirus
+Host:Hipposideros cineraceus
+
+
+Host:Hipposideros pomona
+
+
+// 2
+Parasite:Laibin mobatvirus
+Host:Taphozous melanopogon
+
+
+// 1
+Parasite:Maporal virus
+Host:Oligoryzomys fulvescens
+
+
+Host:Oligoryzomys fulvescens (fulvous pygmy rice rat)
+
+
+// 2
+Parasite:Muleshoe hantavirus
+Host:Sigmodon hispidus
+NC_035572|
+
+Host:Sigmodon spp. (S. hispidus or S. texensis)
+
+
+// 2
+Parasite:Limestone Canyon virus
+Host:Peromyscus boylii
+
+
+Host:Peromyscus ochraventer
+
+
+Host:Peromyscus levipes
+
+
+Host:Peromyscus hylocetes
+
+
+Host:Peromyscus spicilegus
+
+
+Host:Peromyscus melanotis
+
+
+// 6
+Parasite:Bayou orthohantavirus
+Host:Oryzomys palustris
+
+
+Host:Oryzomys palustris (marsh rice rat)
+
+
+// 2
+Parasite:Rodent hantavirus
+Host:Apodemus agrarius
+NC_016428|
+
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+Host:Chinchilla lanigera
+NC_021386|
+
+Host:Lasiopodomys gregalis
+
+
+Host:Dipus sagitta
+NC_027499|
+
+Host:Niviventer niviventer
+
+
+Host:Myodes rutilus
+
+
+Host:Eothenomys eva
+
+
+Host:Apodemus peninsulae
+NC_016060|
+
+// 9
+Parasite:Shrew hantavirus
+Host:Sorex araneus
+NC_027963|
+
+// 1
+Parasite:Lechiguanas virus
+Host:Oligoryzomys nigripes
+
+
+Host:Oligoryzomys flavescens
+
+
+// 2
+Parasite:Pergamino virus
+Host:Oxymycterus rufus
+
+
+Host:Akodon azarae
+
+
+Host:Akodon azurae
+
+
+// 3
+Parasite:Wenling hagfish virus
+Host:Eptatretus burgeri
+NC_002807|
+
+// 1
+Parasite:Wenling red spikefish hantavirus
+Host:Triacanthodes anomalus
+NC_009861|
+
+// 1
+Parasite:Wenling yellow goosefish hantavirus
+Host:Lophius litulon
+NC_023828|
+NC_023828|
+// 1
+Parasite:Wenling minipizza batfish hantavirus
+Host:Halieutaea stellata
+
+
+// 1
+Parasite:Hainan oriental leaf-toed gecko hantavirus
+Host:Hemidactylus bowringii
+NC_025938|
+NC_025938|
+// 1
+Parasite:Dode virus
+Host:Hipposideros pomona
+
+
+// 1
+Parasite:Andes orthohantavirus
+Host:Neacomys spinosus voucher CMUFMT:4704
+
+
+Host:Carollia perspicillata
+NC_022422|
+
+Host:Desmodus rotundus
+NC_022423|
+
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+Host:Homo sapiens (female)
+
+
+Host:Oligoryzomys longicaudatus
+
+
+Host:Loxodontomys micropus
+
+
+Host:Abrothrix longipilis
+
+
+Host:Rattus rattus
+NC_012374|
+NC_012374|
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+Host:Oligoryzomys longicaudatus 31
+
+
+Host:Oligoryzomys longicaudatus 25
+
+
+Host:rodent Oligoryzomys longicaudatus 19
+
+
+Host:rodent Oligoryzomys longicaudatus 24
+
+
+Host:Oligoryzomys chacoensis
+
+
+// 15
+Parasite:Jeju virus
+Host:Crocidura shantungensis
+NC_021398|
+
+// 1
+Parasite:Juquitiba virus
+Host:Oligoryzomys nigripes
+
+
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+Host:Akodon cursor
+
+
+Host:Oligoryzomys fornesi
+
+
+Host:Oligoryzomys sp.
+
+
+// 5
+Parasite:Maripa hantavirus
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+Host:Zygodontomys brevicauda
+
+
+Host:Oligoryzomys fulvescens
+
+
+// 3
+Parasite:Cano Delgadito orthohantavirus
+Host:Sigmodon alstoni
+
+
+Host:Sigmodon alstoni (Alston's cotton rat)
+
+
+// 2
+Parasite:Khabarovsk orthohantavirus
+Host:Microtus maximowiczii
+
+
+Host:Clethrionomys rutilus (rodent)
+
+
+// 2
+Parasite:Sangassou orthohantavirus
+Host:Hylomyscus simus
+
+
+Host:Hylomyscus endorobae
+
+
+// 2
+Parasite:Eothenomys eleusis hantavirus FUGV
+Host:Eothenomys eleusis
+
+
+// 1
+Parasite:Prospect Hill orthohantavirus
+Host:Microtus pennsylvanicus
+
+
+// 1
+Parasite:Rockport virus
+Host:Scalopus aquaticus
+
+
+// 1
+Parasite:Laguna Negra orthohantavirus
+Host:Calomys laucha
+
+
+Host:Calomys callidus
+
+
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+Host:Calomys fecundus (originally Calomys callosus)
+
+
+Host:Akodon simulator
+
+
+Host:rodent Callomys callidus
+
+
+// 6
+Parasite:Hantavirus Fusong-Mf-682
+Host:Microtus fortis
+
+
+// 1
+Parasite:El Moro Canyon orthohantavirus
+Host:Reithrodontomys megalotis
+
+
+Host:Peromyscus melanotis
+
+
+Host:western harvest mouse (Reithrodontomys megalotis)
+
+
+Host:Neotoma mexicana
+NC_035594|
+
+// 4
+Parasite:Dabieshan virus
+Host:Niviventer confucianus
+NC_023960|
+
+// 1
+Parasite:Nova virus
+Host:Talpa europaea
+NC_002391|
+
+// 1
+Parasite:Jabora virus
+Host:Akodon montensis
+NC_025746|
+
+Host:Akodon paranaensis
+
+
+// 2
+Parasite:Anjozorobe virus
+Host:Eliurus majori
+
+
+Host:Rattus rattus
+NC_012374|
+NC_012374|
+// 2
+Parasite:Cao Bang orthohantavirus
+Host:Anourosorex squamipes
+NC_024563|
+
+// 1
+Parasite:Bowe virus
+Host:Crocidura douceti
+
+
+// 1
+Parasite:Montano orthohantavirus
+Host:Peromyscus beatae
+
+
+Host:Peromyscus aztecus evides
+
+
+// 2
+Parasite:Bruges virus
+Host:Talpa europaea
+NC_002391|
+
+// 1
+Parasite:Monongahela hantavirus
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Ash River virus
+Host:Sorex cinereus
+
+
+Host:Sorex cinereus (voucher MSB Mamm 73418)
+
+
+// 2
+Parasite:Jerboa hantavirus
+Host:Dipus sagitta
+NC_027499|
+
+// 1
+Parasite:Kielder hantavirus
+Host:Microtus agrestis
+NC_041250|
+
+// 1
+Parasite:Bruges orthohantavirus
+Host:Talpa europaea
+NC_002391|
+
+// 1
+Parasite:Choclo virus
+Host:Oligoryzomys fulvescens costaricensis
+
+
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 2
+Parasite:Imjin virus
+Host:Crocidura lasiura
+NC_029329|
+
+Host:Crocidura shantungensis
+NC_021398|
+
+// 2
+Parasite:Sorex araneus hantavirus
+Host:Sorex araneus
+NC_027963|
+
+// 1
+Parasite:Neomys anomalus hantavirus
+Host:Neomys anomalus
+
+
+// 1
+Parasite:Hantavirus NB5
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Hantavirus NB2
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Hantavirus NB9
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Hantavirus NB8
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Hantavirus sdp37
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantavirus sdp22
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantavirus sdp3
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantavirus sdp2 YXL-2008
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantavirus sdp1
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantavirus Case Itapua
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantavirus AC210py
+Host:Akodon cursor
+
+
+// 1
+Parasite:Hantavirus Case 1
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantavirus Yakeshi-Mm-182
+Host:Microtus maximowiczii
+
+
+// 1
+Parasite:Hantavirus Yakeshi-Mm-59
+Host:Microtus maximowiczii
+
+
+// 1
+Parasite:Hantavirus Yakeshi-Mm-31
+Host:Microtus maximowiczii
+
+
+// 1
+Parasite:Hantavirus Yakeshi-Mm-62
+Host:Microtus maximowiczii
+
+
+// 1
+Parasite:Hantavirus Yakeshi-Mm-42
+Host:Microtus maximowiczii
+
+
+// 1
+Parasite:Hantavirus Yakeshi-Mm-795
+Host:Microtus fortis
+
+
+// 1
+Parasite:Hantavirus R165
+Host:Bolomys lasiurus
+
+
+// 1
+Parasite:Hantavirus R150
+Host:Bolomys lasiurus
+
+
+// 1
+Parasite:Hantavirus R142
+Host:Bolomys lasiurus
+
+
+// 1
+Parasite:Hantavirus R167
+Host:Bolomys lasiurus
+
+
+// 1
+Parasite:Hantavirus R34
+Host:Akodon sp.
+
+
+// 1
+Parasite:Hantavirus R11
+Host:Bolomys lasiurus
+
+
+// 1
+Parasite:Araraquara virus
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+Host:Necromys lasiurus 5
+
+
+Host:Necromys lasiurus 2
+
+
+Host:Akodon sp. 1
+
+
+Host:Necromys lasiurus 66
+
+
+Host:Necromys lasiurus 65
+
+
+Host:Necromys lasiurus 56
+
+
+Host:Necromys lasiurus 55
+
+
+Host:Necromys lasiurus 47
+
+
+Host:Necromys lasiurus 32
+
+
+Host:Necromys lasiurus 19
+
+
+Host:Necromys lasiurus 12
+
+
+Host:Necromys lasiurus
+
+
+// 13
+Parasite:Hantaanvirus CJAp93
+Host:Apodemus peninsulae
+NC_016060|
+
+// 1
+Parasite:Hantaanvirus CGRn45
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Hantaanvirus CGAa75
+Host:Apodemus agrarius
+NC_016428|
+
+// 1
+Parasite:Hantaanvirus CGAa2
+Host:Apodemus agrarius
+NC_016428|
+
+// 1
+Parasite:Hantaanvirus CGHu1
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantaanvirus CGAa4MP9
+Host:Apodemus agrarius
+NC_016428|
+
+// 1
+Parasite:Hantaanvirus CGAa4P15
+Host:Apodemus agrarius
+NC_016428|
+
+// 1
+Parasite:Hantaanvirus CGAa1011
+Host:Apodemus agrarius
+NC_016428|
+
+// 1
+Parasite:Hantaanvirus CGAa1015
+Host:Apodemus agrarius
+NC_016428|
+
+// 1
+Parasite:Hantaanvirus CGAa31MP7
+Host:Apodemus agrarius
+NC_016428|
+
+// 1
+Parasite:Hantaanvirus CGAa31P9
+Host:Apodemus agrarius
+NC_016428|
+
+// 1
+Parasite:Hantaanvirus CGRn53
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Hantaanvirus CGRn5310
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Hantaanvirus CGRn93MP8
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Hantaanvirus CGRn93P8
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Hantavirus AA137/Omsk-97
+Host:Apodemus agrarius
+NC_016428|
+
+// 1
+Parasite:Hantavirus CG32/Moscow-95
+Host:Clethrionomys glareolus
+
+
+// 1
+Parasite:Mouyassue virus
+Host:Neoromicia capensis
+
+
+Host:Neoromicia nanus
+
+
+// 2
+Parasite:Brno virus
+Host:Nyctalus noctula
+NC_027237|
+
+// 1
+Parasite:Tigray virus
+Host:Stenocephalemys albipes
+
+
+// 1
+Parasite:Hantavirus sp.
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+Host:Apodemus flavicollis
+
+
+Host:Microtus pennsylvanicus
+
+
+Host:Bandicote indica
+
+
+Host:Suncus murinus
+NC_024604|
+
+Host:Bandicota indica
+NC_028335|
+
+Host:Mus musculus
+NC_005089|
+
+Host:Clethrionomys glareolus
+
+
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+Host:Microtus fortis
+
+
+Host:Microtus oeconomus
+
+
+Host:Myodes rufocanus
+NC_029477|
+
+// 12
+Parasite:Makokou virus
+Host:Hipposideros ruber
+
+
+// 1
+Parasite:Hantavirus NFG299
+Host:Peromyscus
+
+
+// 1
+Parasite:Hantavirus NFG297
+Host:Peromyscus
+
+
+// 1
+Parasite:Hantavirus NFG339
+Host:Peromyscus
+
+
+// 1
+Parasite:Hantavirus NFG354
+Host:Peromyscus
+
+
+// 1
+Parasite:Hantavirus NFG289
+Host:Peromyscus
+
+
+// 1
+Parasite:Hantavirus NFG357
+Host:Peromyscus
+
+
+// 1
+Parasite:Hantavirus NFG313
+Host:Peromyscus
+
+
+// 1
+Parasite:Thailand orthohantavirus
+Host:Bandicota indica
+NC_028335|
+
+// 1
+Parasite:Hantavirus YN05-9
+Host:Microtus clarkei
+
+
+// 1
+Parasite:Hantavirus YN05-7
+Host:Microtus clarkei
+
+
+// 1
+Parasite:Hantavirus YN06-1024
+Host:Apodemus draco
+NC_019584|
+
+// 1
+Parasite:Hantavirus YN06-282
+Host:Apodemus draco
+NC_019584|
+
+// 1
+Parasite:Hantavirus YN06-868
+Host:Eothenomys cachinus
+
+
+// 1
+Parasite:Hantavirus YN06-257
+Host:Eothenomys cachinus
+
+
+// 1
+Parasite:Hantavirus YN06-256
+Host:Eothenomys cachinus
+
+
+// 1
+Parasite:Hantavirus YN06-747
+Host:Eothenomys cachinus
+
+
+// 1
+Parasite:Hantavirus YN06-813
+Host:Eothenomys eleusis
+
+
+// 1
+Parasite:Hantavirus YN06-254
+Host:Eothenomys cachinus
+
+
+// 1
+Parasite:Hantavirus YN06-362
+Host:Eothenomys cachinus
+
+
+// 1
+Parasite:Hantavirus YN06-270
+Host:Apodemus draco
+NC_019584|
+
+// 1
+Parasite:Hantavirus YN05-637
+Host:Rattus nitidus
+NC_040919|
+
+// 1
+Parasite:Hantavirus YN06-365
+Host:Eothenomys eleusis
+
+
+// 1
+Parasite:Hantavirus YN06-153
+Host:Eothenomys cachinus
+
+
+// 1
+Parasite:Hantavirus YN06-696
+Host:Eothenomys eleusis
+
+
+// 1
+Parasite:Hantavirus YN06-455
+Host:Eothenomys cachinus
+
+
+// 1
+Parasite:Hantavirus YN06-489
+Host:Eothenomys cachinus
+
+
+// 1
+Parasite:Hantavirus YN06-79
+Host:Eothenomys melanogaster
+NC_027418|
+NC_027418|
+// 1
+Parasite:Hantavirus YN06-605
+Host:Apodemus draco
+NC_019584|
+
+// 1
+Parasite:Hantavirus YN05-324
+Host:Apodemus latronum
+NC_019585|
+
+// 1
+Parasite:Hantavirus YN05-389
+Host:Niviventer confucianus
+NC_023960|
+
+// 1
+Parasite:Hantavirus YN05-47
+Host:Scaptonyx fusicaudus
+
+
+// 1
+Parasite:Hantavirus YN05-83
+Host:Anourosorex squamipes
+NC_024563|
+
+// 1
+Parasite:Hantavirus YN05-484
+Host:Anourosorex squamipes
+NC_024563|
+
+// 1
+Parasite:Hantavirus YN05-494
+Host:Anourosorex squamipes
+NC_024563|
+
+// 1
+Parasite:Hantavirus YN05-295
+Host:Sorex cylindricauda
+NC_025278|
+
+// 1
+Parasite:Hantavirus YN05-304
+Host:Sorex cylindricauda
+NC_025278|
+
+// 1
+Parasite:Hantavirus YN06-862
+Host:Eothenomys eleusis
+
+
+// 1
+Parasite:Azagny virus
+Host:Crocidura obscurior
+
+
+// 1
+Parasite:Hantaanvirus CGRn2616
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Hantaanvirus CGHu2
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Juquitiba-like virus strain PB 1033
+Host:Oligoryzomys nigripes
+
+
+// 1
+Parasite:Juquitiba-like virus strain PB 1002
+Host:Oxymycterus nasutus
+
+
+// 1
+Parasite:Juquitiba-like virus strain PB 981
+Host:Oxymycterus nasutus
+
+
+// 1
+Parasite:Central Plata virus
+Host:Oligoryzomys flavescens
+
+
+// 1
+Parasite:Hantavirus strain IP16
+Host:Akodon montensis
+NC_025746|
+
+// 1
+Parasite:Muju virus
+Host:Eothenomys regulus
+
+
+Host:Myodes regulus
+NC_016427|
+
+// 2
+Parasite:Blue River virus
+Host:Peromyscus leucopus
+NC_037180|
+
+// 1
+Parasite:Juquitiba-like virus strain On576
+Host:Oligoryzomys nigripes
+
+
+// 1
+Parasite:Rio Mamore hantavirus
+Host:Oligoryzomys microtis
+
+
+Host:Oligoryzomys microtus
+
+
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 3
+Parasite:Hantavirus Lodz-2
+Host:Microtus arvalis
+NC_038176|
+
+// 1
+Parasite:Hantavirus Lodz-1
+Host:Microtus arvalis
+NC_038176|
+
+// 1
+Parasite:Hantavirus SEO/Far East/248
+Host:Apodemus agrarius
+NC_016428|
+
+// 1
+Parasite:Amur virus
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+Host:Apodemus peninsulae
+NC_016060|
+
+Host:Micromys minutus Pallas
+
+
+// 3
+Parasite:Taimyr hantavirus
+Host:Siberian lemmings (Lemmus sibiricus)
+
+
+// 1
+Parasite:Castelo dos Sonhos virus
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+Host:Neacomys spinosus
+
+
+// 2
+Parasite:Hantavirus strain H700306
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantavirus Hu/CPVRP2/Batatais/BRA/2007
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantavirus Calomys/CPVRP147/Cajuru/BRA/2006
+Host:Calomys tener
+
+
+// 1
+Parasite:Seoul virus HuBJ20
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Seoul virus HuBJ16
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Seoul virus HuBJ3
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Seoul virus BjHD01
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Seoul virus Rn-YUE12
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Seoul virus HuBJ15
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Seoul virus Rn-HD27
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Seoul virus Rn-HD11
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Seoul virus SD5-153
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Seoul virus HuBJ19
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Seoul virus HuBJ9
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Seoul virus SD201
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Seoul virus Rn-CP7
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Seoul virus HuBJ22
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Seoul virus Rn-SHY17
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Hantavirus Olini/RPR/07-10091/BRA/2007
+Host:Oligoryzomys nigripes
+
+
+// 1
+Parasite:Hantavirus Oxyju/RPR/07-10056/BRA/2006
+Host:Oxymycterus judex
+
+
+// 1
+Parasite:Hantavirus LX378
+Host:Eothenomys miletus
+NC_030330|
+
+// 1
+Parasite:Hantavirus Akm6266
+Host:Akodon montensis
+NC_025746|
+
+// 1
+Parasite:Hantavirus Akm6903
+Host:Akodon montensis
+NC_025746|
+
+// 1
+Parasite:Hantavirus Oln8129
+Host:Oligoryzomys nigripes
+
+
+// 1
+Parasite:Hantavirus Oln8057
+Host:Oligoryzomys nigripes
+
+
+// 1
+Parasite:Ape Aime-Itapua virus
+Host:Akodon montensis
+NC_025746|
+
+// 1
+Parasite:Saaremaa hantavirus
+Host:Apodemus agrarius
+NC_016428|
+
+// 1
+Parasite:Hantavirus Jurong TJK/06(RT50)
+Host:Rattus tanezumi
+NC_011638|
+
+// 1
+Parasite:Hantavirus Jurong TJK/06(RT49)
+Host:Rattus tanezumi
+NC_011638|
+
+// 1
+Parasite:Hantavirus Oln6469
+Host:Oligoryzomys nigripes
+
+
+// 1
+Parasite:Hantavirus Akomo/RPR/07-10028/BRA/2006
+Host:Akodon montensis
+NC_025746|
+
+// 1
+Parasite:Hantavirus Akomo/RPR/07-10027/BRA/2006
+Host:Akodon montensis
+NC_025746|
+
+// 1
+Parasite:Hantavirus Oln6470
+Host:Oligoryzomys nigripes
+
+
+// 1
+Parasite:Hantavirus Sa63
+Host:Oligoryzomys flavescens
+
+
+// 1
+Parasite:Hantavirus Ce22
+Host:Oligoryzomys flavescens
+
+
+// 1
+Parasite:Hantavirus Ce20
+Host:Oligoryzomys flavescens
+
+
+// 1
+Parasite:Maciel virus
+Host:Bolomys obscurus
+
+
+Host:Necromys benefactus
+
+
+// 2
+Parasite:Oran virus
+Host:Oligoryzomys longicaudatus
+
+
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 2
+Parasite:Bermejo virus
+Host:Oligoryzomys chacoensis
+
+
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 2
+Parasite:Hantavirus SDH17
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Hantavirus SDH14
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Hantavirus SDH8
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Jabora hantavirus
+Host:Akodon montensis
+NC_025746|
+
+// 1
+Parasite:Tanganya virus
+Host:Crocidura theresae
+
+
+// 1
+Parasite:Puumala-like virus isolate Fusong-Cr-311
+Host:Clethrionomys rufocanus
+
+
+// 1
+Parasite:Puumala-like virus isolate Fusong-Cr-211
+Host:Clethrionomys rufocanus
+
+
+// 1
+Parasite:Puumala-like virus isolate Fusong-Cr-272
+Host:Clethrionomys rufocanus
+
+
+// 1
+Parasite:Hantavirus CJAp787
+Host:Apodemus peninsulae
+NC_016060|
+
+// 1
+Parasite:Hantavirus CJAp705
+Host:Apodemus peninsulae
+NC_016060|
+
+// 1
+Parasite:Hantavirus CJAp595
+Host:Apodemus peninsulae
+NC_016060|
+
+// 1
+Parasite:Hantavirus CJAp318
+Host:Apodemus peninsulae
+NC_016060|
+
+// 1
+Parasite:Hantavirus CJAp267
+Host:Apodemus peninsulae
+NC_016060|
+
+// 1
+Parasite:Hantavirus CJAp177
+Host:Apodemus peninsulae
+NC_016060|
+
+// 1
+Parasite:Hantavirus CJAa716
+Host:Apodemus agrarius
+NC_016428|
+
+// 1
+Parasite:Hantavirus CJAa594
+Host:Apodemus agrarius
+NC_016428|
+
+// 1
+Parasite:Hantavirus CJAa142
+Host:Apodemus agrarius
+NC_016428|
+
+// 1
+Parasite:Hantavirus CJAp89
+Host:Apodemus peninsulae
+NC_016060|
+
+// 1
+Parasite:Hantavirus CJAa1109
+Host:Apodemus agrarius
+NC_016428|
+
+// 1
+Parasite:Hantavirus MAYOV
+Host:Rattus rattus
+NC_012374|
+NC_012374|
+// 1
+Parasite:Xinyi virus
+Host:Anourosorex yamashinai
+
+
+// 1
+Parasite:Hantavirus Leninskoe JAO 449-44-15
+Host:Apodemus agrarius
+NC_016428|
+
+// 1
+Parasite:Amga virus
+Host:Sorex caecutiens
+
+
+// 1
+Parasite:Hantavirus NMAa82
+Host:Apodemus agrarius
+NC_016428|
+
+// 1
+Parasite:Hantavirus NMAp117
+Host:Apodemus peninsulae
+NC_016060|
+
+// 1
+Parasite:Hantavirus NMAp57
+Host:Apodemus peninsulae
+NC_016060|
+
+// 1
+Parasite:Hantavirus Hu/BRA/511H/2009
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantavirus Hu/BRA/462H/2009
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantavirus Hu/BRA/461H/2009
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantavirus Hu/BRA/452H/2009
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantavirus Hu/BRA/420H/2009
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantavirus Hu/BRA/417H/2009
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantavirus Hu/BRA/395H/2009
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantavirus Hu/BRA/389H/2009
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantavirus Hu/BRA/305H/2009
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantavirus Hu/BRA/292H/2009
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantavirus Hu/BRA/274H/2009
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantavirus Hu/BRA/268H/2009
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantavirus Hu/BRA/256H/2009
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantavirus Hu/BRA/213H/2009
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantavirus Hu/BRA/169H/2009
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantavirus Hu/BRA/46H/2009
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantavirus Hu/BRA/32H/2009
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Araucaria virus
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+Host:Akodon paranaensis
+
+
+// 2
+Parasite:Hokkaido virus
+Host:Myodes rufocanus
+NC_029477|
+
+Host:Myodes rutilus
+
+
+// 2
+Parasite:Adler hantavirus
+Host:Microtus majori
+
+
+// 1
+Parasite:Boginia virus
+Host:Neomys fodiens
+NC_025559|
+
+// 1
+Parasite:Sarufutsu virus
+Host:Sorex unguiculatus
+NC_005435|
+
+// 1
+Parasite:Lohja virus
+Host:Sorex araneus
+NC_027963|
+
+// 1
+Parasite:Uurainen virus
+Host:Sorex araneus
+NC_027963|
+
+// 1
+Parasite:Altai-like virus
+Host:Sorex caecutiens
+
+
+// 1
+Parasite:Hantavirus FL-2014
+Host:Apodemus agrarius
+NC_016428|
+
+Host:Mus musculus
+NC_005089|
+
+// 2
+Parasite:Yuanjiang virus
+Host:Microtus fortis
+
+
+// 1
+Parasite:Seoulvirus tchoupitoulas
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Hantavirus Zhangmu01
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Black Creek Canal orthohantavirus
+Host:Sigmodon hispidus
+NC_035572|
+
+// 1
+Parasite:Gou virus
+Host:Rattus flavipectus
+
+
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 3
+Parasite:Hantavirus 2071 Biritiba Mirim
+Host:Akodon montensis
+NC_025746|
+
+// 1
+Parasite:Hantavirus 2070 Biritiba Mirim
+Host:Akodon sp.
+
+
+// 1
+Parasite:Hantavirus 2319 Biritiba Mirim
+Host:Anoura caudifer
+NC_022420|
+
+// 1
+Parasite:Hantavirus 2145 Biritiba Mirim
+Host:Oryzomys sp.
+
+
+// 1
+Parasite:Hantavirus 2336 Biritiba Mirim
+Host:Juliomys
+
+
+// 1
+Parasite:Hantavirus 2306 Biritiba Mirim
+Host:Thaptomys nigrita
+
+
+// 1
+Parasite:Hantavirus 2064 Biritiba Mirim
+Host:Oligoryzomys sp.
+
+
+// 1
+Parasite:Hantavirus 2063 Biritiba Mirim
+Host:Akodon montensis
+NC_025746|
+
+// 1
+Parasite:Hantavirus 2062 Biritiba Mirim
+Host:Oligoryzomys sp.
+
+
+// 1
+Parasite:Hantavirus 2076 Biritiba Mirim
+Host:Diphylla ecaudata
+NC_037138|
+
+// 1
+Parasite:Hantavirus 2075 Biritiba Mirim
+Host:Diphylla ecaudata
+NC_037138|
+
+// 1
+Parasite:Hantavirus 2036 Biritiba Mirim
+Host:Oligoryzomys sp.
+
+
+// 1
+Parasite:Hantavirus 2303 Biritiba Mirim
+Host:Didelphis aurita
+
+
+// 1
+Parasite:Hantavirus 2072 Biritiba Mirim
+Host:Monodelphis iheringi
+
+
+// 1
+Parasite:Hantavirus 2066 Biritiba Mirim
+Host:Micoureus paraguayanus
+
+
+// 1
+Parasite:Hantavirus 2315 Biritiba Mirim
+Host:Oligoryzomys nigripes
+
+
+// 1
+Parasite:Dahonggou Creek virus
+Host:Scaptonyx fusicaudus
+
+
+// 1
+Parasite:Qian Hu Shan virus
+Host:Sorex cylindricauda
+NC_025278|
+
+// 1
+Parasite:Lianghe virus
+Host:Anourosorex squamipes
+NC_024563|
+
+// 1
+Parasite:Huangpi virus
+Host:Pipistrellus abramus
+NC_005436|
+
+// 1
+Parasite:Tatenale virus
+Host:Microtus agrestis
+NC_041250|
+
+// 1
+Parasite:Catacamas virus
+Host:Oryzomys couesi (Coues' rice rat)
+
+
+// 1
+Parasite:LANV-2 Hantavirus
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:CASV-2 Hantavirus
+Host:Oligoryzomys utiaritensis
+
+
+// 1
+Parasite:RIOMV-4 Hantavirus
+Host:Oligoryzomys sp. RT-2012
+
+
+// 1
+Parasite:RIOMV-3 Hantavirus
+Host:Oligoryzomys microtis
+
+
+// 1
+Parasite:CASV Hantavirus
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Castelo dos Sonhos-2 virus
+Host:Oligoryzomys utiaritensis
+
+
+// 1
+Parasite:ANAJ Hantavirus
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Seoul virus 60CSG
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Seoul virus 58CSG
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Seoul virus 57CSG
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Seoul virus 51CSG
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Seoul virus 44CSG
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Seoul virus 42CSG
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Seoul virus 41CSG
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Seoul virus 38CSG
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Seoul virus 33CSG
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Seoul virus 25CSG
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Seoul virus 19CSG
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Seoul virus 11CSG
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Seoul virus 5CSG
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Seoul virus 24D12
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Seoul virus 19D12
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Seoul virus 14D12
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Seoul virus CSG25
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Seoul virus CSG11
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Seoul virus CSG5
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Seoul virus HP8
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Seoul virus HP7
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Hantaan virus XAAa10091712
+Host:Apodemus agrarius
+NC_016428|
+
+// 1
+Parasite:Hantavirus XAHu09066
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantavirus XAHu09047
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantavirus XAHu09041
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantavirus XAHu09027
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantavirus XAHu09011
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantaan virus P09072
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantaan virus H10150
+Host:Apodemus agrarius
+NC_016428|
+
+// 1
+Parasite:Hantaan virus CA10081905
+Host:Apodemus agrarius
+NC_016428|
+
+// 1
+Parasite:Hantaan virus CA10081708
+Host:Apodemus agrarius
+NC_016428|
+
+// 1
+Parasite:Hantaan virus CA10081206
+Host:Apodemus agrarius
+NC_016428|
+
+// 1
+Parasite:Hantaan virus CA10081203
+Host:Apodemus agrarius
+NC_016428|
+
+// 1
+Parasite:Hantaan virus CA10081113
+Host:Apodemus agrarius
+NC_016428|
+
+// 1
+Parasite:Hantaan virus CA10081109
+Host:Apodemus agrarius
+NC_016428|
+
+// 1
+Parasite:Hantaan virus CA09082007
+Host:Apodemus agrarius
+NC_016428|
+
+// 1
+Parasite:Hantavirus RPR/07-10104
+Host:Oligoryzomys nigripes
+
+
+// 1
+Parasite:Hantavirus RPR/09-10351
+Host:Oligoryzomys nigripes
+
+
+// 1
+Parasite:Hantavirus RPR/08-10217
+Host:Oligoryzomys nigripes
+
+
+// 1
+Parasite:Hantavirus RPR/09-12460
+Host:Akodon serrensis
+
+
+// 1
+Parasite:Tunari virus
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Itapua hantavirus
+Host:Oligoryzomys nigripes
+
+
+Host:Akodon montensis
+NC_025746|
+
+// 2
+Parasite:Neembucu hantavirus
+Host:Oligoryzomys chacoensis
+
+
+// 1
+Parasite:Alto Paraguay hantavirus
+Host:Holochilus chacoensis
+
+
+Host:Holochilus chacarius
+
+
+// 2
+Parasite:Prairie vole hantavirus
+Host:Peromyscus leucopus
+NC_037180|
+
+Host:Sigmodon hispidus
+NC_035572|
+
+Host:Microtus ochrogaster (prairie vole)
+
+
+// 3
+Parasite:Four Corners hantavirus
+Host:Peromyscus maniculatus
+
+
+Host:Reithrodontomys megalotis
+
+
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+Host:Peromyscus maniculatis
+
+
+Host:Peromyscus leucopus
+NC_037180|
+
+Host:Peromyscus truei
+
+
+// 6
+Parasite:Isla Vista hantavirus
+Host:Microtus californicus (California vole)
+
+
+Host:Peromyscus californicus
+
+
+Host:Microtus californicus
+
+
+// 3
+Parasite:Seoulvirus Baltimore
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Hantavirus A9
+Host:Apodemus agrarius
+NC_016428|
+
+// 1
+Parasite:Hantavirus MGB/1209
+Host:Nycteris hispida
+
+
+// 1
+Parasite:Carrizal virus
+Host:Peromyscus megalops
+NC_035613|
+
+Host:Reithrodontomys sumichrasti
+
+
+// 2
+Parasite:Huitzilac virus
+Host:Reithrodontomys megalotis
+
+
+Host:Peromyscus beatae
+
+
+// 2
+Parasite:New York hantavirus
+Host:Peromyscus leucopus
+NC_037180|
+
+// 1
+Parasite:Rio Segundo hantavirus
+Host:Reithrodontomys mexicanus
+NC_035597|
+
+// 1
+Parasite:Hantaanvirus CGHu3612
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantaanvirus CGHu3614
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantavirus S85-46
+Host:Crocidura russula
+NC_006893|
+
+// 1
+Parasite:Hantaanvirus CGHu3
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantaanvirus CGRn2618
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Hantaanvirus CGRni1
+Host:Rattus nitidus
+NC_040919|
+
+// 1
+Parasite:Hantaanvirus CGRn15
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Hantavirus Fusong-Mf-731
+Host:Microtus fortis
+
+
+// 1
+Parasite:Hantavirus CGRn8316
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Hantavirus CGRn9415
+Host:Rattus norvegicus
+NC_001665|AC_000022|
+NC_001665|
+// 1
+Parasite:Puumala-like virus isolate Fusong-Cr-302
+Host:Clethrionomys rufocanus
+
+
+// 1
+Parasite:Puumala-like virus isolate Fusong-Cr-247
+Host:Clethrionomys rufocanus
+
+
+// 1
+Parasite:Hantavirus strain CJilin93
+Host:Apodemus peninsulae
+NC_016060|
+
+// 1
+Parasite:Hantavirus HMT 08-02
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Hantavirus Human/HRP/02-72/BRA/2002
+Host:Homo sapiens
+NM_001256909|NM_001127383|NM_024843|XM_024448399|XM_024448398|XM_011544823|XM_011544821|NC_012920|
+NC_012920|
+// 1
+Parasite:Vladivostok virus
+Host:Microtus fortis
+
+
+// 1
+Parasite:Amur virus Solovey/AP63/1999
+Host:Apodemus peninsulae
+NC_016060|
+
+// 1
+Parasite:Amur virus Solovey/AP61/1999
+Host:Apodemus peninsulae
+NC_016060|
+
+// 1
+Parasite:Puumala-like virus isolate Fusong-Cr-275
+Host:Clethrionomys rufocanus
+
+
+// 1
+Parasite:Thailand virus (Nakhon Ratchasima/Bi0024/2004)
+Host:Bandicota indica
+NC_028335|
+
+// 1
+Parasite:Thailand virus (Nakhon Ratchasima/Bi0017/2004)
+Host:Bandicota indica
+NC_028335|
+
+// 1
+Parasite:Thailand virus (Nakhon Pathom/Bi0016/2004)
+Host:Bandicota indica
+NC_028335|
+
+// 1
+Parasite:Thailand virus (Nakhon Pathom/Bi0067/2004)
+Host:Bandicota indica
+NC_028335|
+
+// 1
+Parasite:Soochong virus-4
+Host:Apodemus peninsulae
+NC_016060|
+
+// 1
+Parasite:Soochong virus-3
+Host:Apodemus peninsulae
+NC_016060|
+
+// 1
+Parasite:Soochong virus-2
+Host:Apodemus peninsulae
+NC_016060|
+
+// 1
+Parasite:Soochong virus-1
+Host:Apodemus peninsulae
+NC_016060|
+
+// 1
+Number of Parasite: 395
+Number of Host: 174
+Number of Interactions: 624
+Number of Combination between cymb and L: 227
+Number of Combination between cymb and M: 252
+Number of Combination between cymb and S: 276
