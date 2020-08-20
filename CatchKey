@@ -1,0 +1,166 @@
+#First script to get information from sequence
+import re
+import functions
+
+file = open("sequence.gb")
+Lines = file.readlines()
+
+# the array take
+HP = []
+count = 0
+done = 0
+quoted = re.compile('"[^"]*"')
+s = ""
+content = ""
+record = False
+#locus to // for one
+#Isolate name,L Accesssion, M Accession, S Accession,host name，length of sequence
+for line in Lines:
+    if (line.find("LOCUS") != -1):
+        record = True
+        content = ""
+        isolate = ""
+        Llength = 0
+        Mlength = 0
+        Slength = 0
+    if(line.find("//\n") != -1):
+        content += line
+        host = ""
+        access = ""
+        isolate = ""
+        segment = ""
+        sequence = ""
+        definition = ""
+        organism = ""
+        isSeq = False
+        record = False
+        findSegment = False
+        isExist = False
+        DefinitionCheck = False
+        for subline in content.splitlines():
+            #find the species name
+            if (subline.find("ORGANISM") != -1):
+                ogran = subline.split()[1:]
+                for w in ogran:
+                    organism += w +" "
+                organism = organism[:-1]
+                print(organism)
+            #find the accesssion number
+            if (subline.find("ACCESSION") != -1):
+                access = functions.getWord(subline)[1]
+                DefinitionCheck = False
+                #print(definition)
+            #A optional way to get name
+            if (subline.find("DEFINITION") != -1):
+                definition += subline
+                DefinitionCheck = True
+            if (DefinitionCheck == True):
+                definition += subline
+            #to get the isolate or strain name
+            if (subline.find("/isolate=") != -1 or subline.find("/strain=") != -1):
+                value = quoted.findall(subline)
+                if value:
+                    value[0] = value[0][1:]
+                    isolate = str(value[0][:-1])
+            # get host name if exists
+            if (subline.find("/host=") != -1):
+                value = quoted.findall(subline)
+                if value:
+                    value[0] = value[0][1:]
+                    host = value[0][:-1]
+                    #remove after ;
+                    host = host.split(";")[0]
+            #To know which segment is sequenced in this text part
+            if(subline.find("/segment=") != -1):
+                #Judge if there is same isolate
+                value = quoted.findall(subline)
+                if value:
+                    value[0] = value[0][1:]
+                    segment = str(value[0][:-1])
+                    findSegment = True
+            #To record the length of sequence
+            if (subline.find("ORIGIN") != -1):
+                isSeq = True
+            if (isSeq == True):
+                sequence += line
+                #sequence finish
+                if (subline.find("//") != -1):
+                    isExist = False
+                    if (segment == ""):
+                        #find below strings mean the segment is S
+                        if (definition.find("S Segment") != -1 or definition.find("S segment") != -1 or definition.find("G1") != -1 or definition.find("G2") != -1
+                                or definition.find("nucleocapsid") != -1 or definition.find("S genomic segment") != -1 or definition.find("(S)")  != -1
+                                or definition.find("(N)")  != -1 or definition.find("S RNA segment") != -1):
+                            segment = "S"
+                        # find below strings mean the segment is M
+                        if (definition.find("M segment") != -1 or definition.find("M genome segment") != -1 or definition.find("M fragment") != -1
+                                or definition.find("glycoprotein") != -1 or definition.find("(M)")  != -1 or definition.find("M polyprotein") != -1 or
+                                definition.find("M gene") != -1 or definition.find("envelope polyprotein gene") != -1):
+                            segment = "M"
+                        # find below strings mean the segment is L
+                        if (definition.find("L segment") != -1 or definition.find("RNA-dependent") != -1 or definition.find("RNA polymerase")  != -1
+                                or definition.find("(L)")  != -1 or definition.find("L protein") != -1):
+                            segment = "L"
+                    #get the length of sequence for the corresponding segment
+                    if (segment == "L" or segment == "L segment"):
+                        Llength = len(sequence)
+                    # get the length of sequence for the corresponding segment
+                    elif (segment == "M" or segment == "M segment"):
+                        Mlength = len(sequence)
+                    # get the length of sequence for the corresponding segment
+                    elif (segment == "S" or segment == "S segment" or segment == "G2" or segment == "G1"):
+                        Slength = len(sequence)
+                    #If the isolate has been recorded in the multiple-dimensional list
+                    for i in range(0, len(HP)):
+                        if (HP[i][1] == isolate):
+                            isExist = True
+
+                        # If so the segemnt accession should be added to the existed isolate
+                        if (isExist == True):
+                            if (segment == "L" or segment == "L segment"):
+                                if (HP[i][6] < Llength):
+                                    HP[i][2] = access
+                                    HP[i][6] = Llength
+                            elif (segment == "M" or segment == "M segment"):
+                                if (HP[i][7] < Mlength):
+                                    HP[i][3] = access
+                                    HP[i][7] = Mlength
+                            elif (segment == "S" or segment ==  "S segment" or segment == "G2" or segment == "G1"):
+                                if (HP[i][8] < Slength):
+                                    HP[i][4] = access
+                                    HP[i][8] = Slength
+                            break
+        #if not exist previously, add a new list into the core list
+        if (isExist != True):
+            if (segment == "L" or segment =="L segment"):
+                HP.append([organism, isolate, access, "", "", host, Llength, 0, 0])
+            if (segment == "M" or segment == "M segment"):
+                HP.append([organism, isolate, "", access, "", host, 0, Mlength, 0])
+            if (segment == "S" or segment == "S segment" or segment == "G2" or segment == "G1"):
+                HP.append([organism, isolate, "", "", access, host, 0, 0, Slength])
+
+    if (record == True):
+        content += line
+
+
+
+#host name recorder
+hostList = open("HostList.txt", "w")
+# Complete information recorder
+output = open("output.txt", 'w')
+host = set()
+l = len(HP[1]) - 3
+for i in range(0,len(HP)):
+    s = ""
+    for m in range(0,l):
+        s += str(HP[i][m]) + ";"
+
+        if (m == (l - 1)):
+            s += "\n"
+            host.add(HP[i][m])
+    output.write(s)
+for i in host:
+    hostList.write(i + "\n")
+output.close()
+hostList.close()
+file.close()
