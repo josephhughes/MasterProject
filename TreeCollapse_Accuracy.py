@@ -1,6 +1,6 @@
-#DJ46H.txt DJ100H.txt DJ111R
+#DTC46H.txt DTC100H.txt DTC111R
 import re
-# Function to get the differences between the solution found by tools and the correct solution, and the numbers of eveents found by tools， similar to Jane 4's one
+# Function to get the differences between the solution found by tools and the correct solution, and the numbers of events found by tools， similar to Jane 4's one
 def accuracy(output1,origin, path, pathToAns, l):
     #For differences
     output = open(output1, 'w')
@@ -9,7 +9,7 @@ def accuracy(output1,origin, path, pathToAns, l):
     output2 = open(origin, 'w')
     output2.write("Cospeciation Duplication Switch Sorting\n")
     for i in range(0,l):
-        #Get the number of events found by EUCALYPT
+        #Get the number of events found by TreeCollapse
         fn1 = path + "output" + str(i) + ".txt"
         fn2 = pathToAns + "sample" + str(i) + ".reco"
         f1 = open(fn1,'r')
